@@ -1,6 +1,6 @@
 import os
 
-import tensorflow.keras
+import tensorflow.keras as keras
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, RNN, Dense, Lambda
 import numpy as np

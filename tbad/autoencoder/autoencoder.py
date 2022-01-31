@@ -1,6 +1,6 @@
 import os
 
-import tensorflow.keras
+import tensorflow.keras as keras
 from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.models import Model
 import joblib
