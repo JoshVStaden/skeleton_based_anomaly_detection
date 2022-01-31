@@ -1,10 +1,10 @@
 import os
 
-import keras
-from keras.models import Model
-from keras.layers import Input, RNN, Dense
+import tensorflow.keras
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, RNN, Dense
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 
 from tbad.rnn_autoencoder.rnn import load_architecture_specification
 from tbad.combined_model.message_passing import MessagePassingEncoderDecoder

@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-import keras.backend as K
+import tensorflow.keras.backend as K
 
 
 def mean_squared_error(original_trajectory, reconstructed_trajectory):

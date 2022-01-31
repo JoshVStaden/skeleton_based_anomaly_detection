@@ -1,10 +1,10 @@
 import os
 
-import keras
-from keras.models import Model
-from keras.layers import Input, RNN, Dense, Lambda
+import tensorflow.keras
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, RNN, Dense, Lambda
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 
 from tbad.utils import select_optimiser, select_loss, select_cell
 

@@ -1,9 +1,9 @@
 import os
 
-import keras
-from keras.layers import Input, Dense
-from keras.models import Model
-from sklearn.externals import joblib
+import tensorflow.keras
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.models import Model
+import joblib
 
 from tbad.rnn_autoencoder.rnn import load_architecture_specification
 from tbad.utils import select_optimiser, select_loss

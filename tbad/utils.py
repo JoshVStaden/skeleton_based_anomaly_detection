@@ -1,9 +1,9 @@
 import os
 from datetime import datetime
 
-from keras.layers import SimpleRNNCell, GRUCell, LSTMCell
-from keras.optimizers import Adam, RMSprop
-from keras.regularizers import l1_l2
+from tensorflow.keras.layers import SimpleRNNCell, GRUCell, LSTMCell
+from tensorflow.keras.optimizers import Adam, RMSprop
+from tensorflow.keras.regularizers import l1_l2
 
 from tbad.losses import modified_binary_crossentropy_2, modified_mean_absolute_error, modified_mean_squared_error_2
 from tbad.losses import modified_mean_squared_error_3, modified_balanced_mean_absolute_error

@@ -2,7 +2,7 @@ from copy import deepcopy
 import os
 
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 from sklearn.utils import shuffle
 
 from tbad.autoencoder.data import load_trajectories, split_into_train_and_test, extract_global_features

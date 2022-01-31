@@ -1,9 +1,9 @@
 import os
 
-import keras
-import keras.backend as K
-from keras.models import Model
-from keras.layers import Input, RNN, Dense, Reshape, Lambda
+import tensorflow.keras
+import tensorflow.keras.backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, RNN, Dense, Reshape, Lambda
 import numpy as np
 
 from tbad.utils import select_cell, select_optimiser, select_loss

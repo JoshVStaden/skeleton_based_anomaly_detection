@@ -3,7 +3,7 @@ import os
 import warnings
 
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 from sklearn.utils import shuffle
 
 from tbad.data import load_trajectories, remove_short_trajectories, input_trajectories_missing_steps
